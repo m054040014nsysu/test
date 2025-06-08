@@ -1,31 +1,21 @@
-# Built things
-_Debug/
-Compiled/
-
-# AudioCache can be rebuilt from sources
-AudioCache/
-
-# Lockfile
-_OpenInEditor.lock
-
-# User settings
-Game.agf.user
-*.crm.user
-
-# Backups
-Game.agf.bak
-backup_acsprset.spr
-
-# Memory dumps
-*.dmp
-
-# Temporary files
-# temporarily created during sprite or room background compression
-~aclzw.tmp
-# temporary, main game data, before getting packed into exe
-game28.dta
-# temporary build of the game before being moved to Compiled/ folder
-*.exe
-
-# Log files
-warnings.log
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    // 產生 0~1 的隨機數字
+    var rand = Math.random();
+    
+    // 根據亂數導向問卷A或問卷B
+    if (rand < 0.5) {
+      window.location.href = "https://yourdomain.com/survey_A.html";
+    } else {
+      window.location.href = "https://yourdomain.com/survey_B.html";
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting to the survey...</p>
+</body>
+</html>
